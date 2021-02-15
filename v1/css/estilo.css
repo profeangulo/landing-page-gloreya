@@ -4,6 +4,8 @@ h6 { font-family: 'Permanent Marker', cursive; }
 h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
 p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
 
+body { margin: 0 !important; }
+
 header, main, footer, aside, section, article, figure, nav, div { display: block; }
 
 
@@ -17,6 +19,7 @@ aside#whatsapp a i {  }
 aside#whatsapp a:hover {  }
 aside#whatsapp a:hover i {  }
 
+
 /* ScrollTop Button */
 aside#scroll-top {  }
 aside#scroll-top a {  }
@@ -24,22 +27,56 @@ aside#scroll-top a i {  }
 aside#scroll-top a:hover {  }
 aside#scroll-top a:hover i {  }
 
+
 /* Header */
-header {  }
-header figure {  }
-header figure a {  }
-header figure a img {  }
-header figure a:hover {  }
-header figure a:hover img {  }
+header { width: 100%; height: 100px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99999; background: #fff; }
+header article { width: 900px; height: 100px; margin: 0 auto; float: none; position: relative; }
+
+header article figure { width: 80px; height: 90px; margin: 0; float: left; position: relative; }
+header article figure a { width: 78px; height: 90px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+header article figure a img { width: auto; height: 90px; display: block; margin: 0; float: none; position: relative; transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+header article figure a:hover img { transition: all 0.3s ease-in; }
+
+header article nav { width: 412px; height: 50px; margin: 25px 0; float: right; position: relative; }
+header article nav a { width: auto; height: auto; margin: 0; float: left; position: relative; display: block; color: #8c0c0c; text-decoration: none; font-size: 0.95em; line-height: 1em; font-weight: 500; padding: 17.5px 15px 8px; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: solid 2px #fff; transition: all 0.3s ease-in; }
+header article nav a:hover { color: #000; border-bottom: solid 2px #8c0c0c; transition: all 0.3s ease-in; }
+
+
 
 /* Main */
 main {  }
 
-main section#burger {  }
-main section#burger div.contenido-centrado {  }
-main section#burger div.contenido-centrado article {  }
-main section#burger div.contenido-centrado article h6 {  }
-main section#burger div.contenido-centrado article h3 {  }
+
+/* Burgers */
+main section#burgers {  }
+main section#burgers div.contenido-centrado {  }
+
+main section#burgers div.contenido-centrado article {  }
+main section#burgers div.contenido-centrado article h6 {  }
+main section#burgers div.contenido-centrado article h3 {  }
+
+main section#burgers div.contenido-centrado figure {  }
+main section#burgers div.contenido-centrado figure div.producto {  }
+main section#burgers div.contenido-centrado figure div.producto img {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto h5 {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto h4 {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto p.texto-producto {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto div.puntos {  }
+main section#burgers div.contenido-centrado figure div.producto div.info-producto p.precio-producto {  }
 
 
+
+
+
+/* FOOTER */
+footer { width: 100%; height: 200px; margin: 0; float: none; position: relative; background: url('../img/footer_bg.png') no-repeat top center #333; background-size: cover; }
+footer article { width: 1100px; height: 200px; margin: 0 auto; float: none; position: relative; }
+footer article hr { width: 453px; height: 1px; display: block; margin: 99px 0; float: left; border: none; background: #555; }
+footer article figure { width: 108px; height: 149px; margin: 25px 38px 25px 42px; float: left; position: relative; }
+footer article figure a { width: 108px; height: 149px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+footer article figure a img { width: auto; height: 149px; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+footer article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+footer article figure a:hover img { transition: all 0.3s ease-in; }
 
