@@ -1,0 +1,45 @@
+/* Patrones globales del CSS */
+
+h6 { font-family: 'Permanent Marker', cursive; }
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+
+
+/* Maquetación, Estilo y Acabados en CSS */
+
+/* WhastsApp Button */
+aside#whatsapp {  }
+aside#whatsapp a {  }
+aside#whatsapp a i {  }
+aside#whatsapp a:hover {  }
+aside#whatsapp a:hover i {  }
+
+/* ScrollTop Button */
+aside#scroll-top {  }
+aside#scroll-top a {  }
+aside#scroll-top a i {  }
+aside#scroll-top a:hover {  }
+aside#scroll-top a:hover i {  }
+
+/* Header */
+header {  }
+header figure {  }
+header figure a {  }
+header figure a img {  }
+header figure a:hover {  }
+header figure a:hover img {  }
+
+/* Main */
+main {  }
+
+main section#burger {  }
+main section#burger div.contenido-centrado {  }
+main section#burger div.contenido-centrado article {  }
+main section#burger div.contenido-centrado article h6 {  }
+main section#burger div.contenido-centrado article h3 {  }
+
+
+
