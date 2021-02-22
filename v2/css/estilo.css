@@ -1,0 +1,101 @@
+/* Patrones globales del CSS */
+
+h6 { font-family: 'Permanent Marker', cursive; }
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+body { margin: 0 !important; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+
+
+/* Maquetación, Estilo y Acabados en CSS */
+
+/* WhastsApp Button */
+aside#whatsapp { width: 45px; height: 45px; margin: 0; float: none; position: fixed; bottom: 20px; right: 20px; z-index: 9999; }
+aside#whatsapp a { width: 100%; height: auto; margin: 0; float: none; position: relative; display: block; text-align: center; color: #fff; background: #00bb2d; font-size: 1.5em; padding: 8px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#whatsapp a:hover { background: #005313; transition: all 0.3s ease-in; }
+
+
+/* ScrollTop Button */
+aside#scroll-top { width: 45px; height: 45px; margin: 0; float: none; position: fixed; bottom: 75px; right: 20px; z-index: 9998; }
+aside#scroll-top a { width: 100%; height: auto; margin: 0; float: none; position: relative; display: block; text-align: center; color: #fff; background: #8c0c0c; font-size: 1.5em; padding: 8px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#scroll-top a:hover { background: #000; transition: all 0.3s ease-in; }
+
+
+/* Header */
+header { width: 100%; height: 100px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99999; background: #fff; }
+header article { width: 900px; height: 100px; margin: 0 auto; float: none; position: relative; }
+
+header article figure { width: 80px; height: 90px; margin: 0; float: left; position: relative; }
+header article figure a { width: 78px; height: 90px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+header article figure a img { width: auto; height: 90px; display: block; margin: 0; float: none; position: relative; transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+header article figure a:hover img { transition: all 0.3s ease-in; }
+
+header article nav { width: 412px; height: 50px; margin: 25px 0; float: right; position: relative; }
+header article nav a { width: auto; height: auto; margin: 0; float: left; position: relative; display: block; color: #8c0c0c; text-decoration: none; font-size: 0.95em; line-height: 1em; font-weight: 500; padding: 17.5px 15px 8px; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: solid 2px #fff; transition: all 0.3s ease-in; }
+header article nav a:hover { color: #000; border-bottom: solid 2px #8c0c0c; transition: all 0.3s ease-in; }
+
+
+
+/* Main */
+main { width: 100%; height: auto; margin: 170px auto 0 auto; float: none; position: relative; }
+
+
+
+/* Burgers, Beverages y Pizzas */
+main section.section-menu { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
+main section.section-menu div.contenido-centrado { width: 1100px; height: auto; margin: 0 auto; float: none; position: relative; }
+
+main section.section-menu div.contenido-centrado article { width: 100%; height: auto; margin: 0 auto 50px; float: none; position: relative; }
+main section.section-menu div.contenido-centrado article h6 { font-size: 1.3em; text-align: center; color: #ce0707; letter-spacing: 0.1em; font-weight: 500; padding: 0 0 10px; }
+main section.section-menu div.contenido-centrado article h3 { font-size: 3em; line-height: 1em; text-align: center; color: #000; letter-spacing: 0.015em; font-weight: 900; padding: 0; }
+
+main section.section-menu div.contenido-centrado figure { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section.section-menu div.contenido-centrado figure div.producto { width: 490px; height: 110px; margin: 29px; float: none; position: relative; display: inline-block; }
+main section.section-menu div.contenido-centrado figure div.producto img { width: 70px; height: 70px; display: block; margin: 0; float: none; position: absolute; top: 0; left: 0; border-radius: 10px; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto { width: 400px; height: 110px; display: block; margin: 0; float: none; position: absolute; top: 0; right: 0; }
+
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto h5 { width: auto; height: auto; display: block; margin: 0 0 15px; float: none; position: relative; background: #ce0707; color: #fff; text-align: center; text-transform: uppercase; font-size: 0.7em; line-height: 1em; font-weight: 500; letter-spacing: 0.035em; padding: 4px 7px; border-radius: 20px; }
+
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto h5.reco { width: 90px; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto h5.new { width: 30px; }
+
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto h4 { font-size: 1.25em; line-height: 1em; text-align: left; color: #000; letter-spacing: 0.035em; font-weight: 800; padding: 0 0 15px; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto p.texto-producto { font-size: 0.9em; line-height: 1.45em; text-align: left; color: #999; letter-spacing: 0.015em; font-weight: 400; padding: 0; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto div.puntos { width: 50px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 32px; right: 42px; font-size: 0.9em; line-height: 1em; text-align: center; color: #999; letter-spacing: 0.015em; font-weight: 400; padding: 0; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto p.precio-producto { width: 50px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 32px; right: 0; font-size: 1.25em; line-height: 1em; text-align: right; color: #ce0707; letter-spacing: -0.025em; font-weight: 700; padding: 0; }
+
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto div.puntos.posi-top { top: 0; }
+main section.section-menu div.contenido-centrado figure div.producto div.info-producto p.precio-producto.posi-top { top: 0; }
+
+
+
+/* Combos */
+main section#combos { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
+main section#combos article { width: 1100px; height: 238px; margin: 0 auto; float: none; position: relative; }
+main section#combos article nav { width: 100%; height: 238px; margin: 0 auto; float: none; position: relative; }
+main section#combos article nav a { width: 346px; height: 238px; margin: 0 30px 0 0; float: left; position: relative; display: block; overflow: hidden; transition: all 0.3s ease-in; }
+main section#combos article nav a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+main section#combos article nav a:hover { opacity: 0.9; transition: all 0.3s ease-in; }
+main section#combos article nav a:hover img { transform: scale(1.05); transition: all 0.3s ease-in; }
+
+main section#combos article nav a:last-child { margin: 0; }
+
+
+
+
+/* FOOTER */
+footer { width: 100%; height: 200px; margin: 0; float: none; position: relative; background: url('../img/footer_bg.png') no-repeat top center #333; background-size: cover; }
+footer article { width: 1100px; height: 200px; margin: 0 auto; float: none; position: relative; }
+footer article hr { width: 453px; height: 1px; display: block; margin: 99px 0; float: left; border: none; background: #555; }
+footer article figure { width: 108px; height: 149px; margin: 25px 38px 25px 42px; float: left; position: relative; }
+footer article figure a { width: 108px; height: 149px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+footer article figure a img { width: auto; height: 149px; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+footer article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+footer article figure a:hover img { transition: all 0.3s ease-in; }
+
